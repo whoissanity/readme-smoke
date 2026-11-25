@@ -27,3 +27,19 @@ whether GitHub proxies repository assets through camo or serves them from
 `raw.githubusercontent.com` directly:
 
 ![Drafting Table hero, markdown syntax](https://raw.githubusercontent.com/whoissanity/readme-smoke/main/assets/hero-light.svg?v=1)
+
+## Proxy test
+
+Three ways to reference the same 64,912-byte asset, to force GitHub's image proxy:
+
+1. raw host (already measured):
+
+![hero via raw](https://raw.githubusercontent.com/whoissanity/readme-smoke/main/assets/hero-light.svg?v=1)
+
+2. the github.com/raw redirect form:
+
+![hero via github.com/raw](https://github.com/whoissanity/readme-smoke/raw/main/assets/hero-light.svg?v=1)
+
+3. a third-party CDN over the same repo:
+
+![hero via jsDelivr](https://cdn.jsdelivr.net/gh/whoissanity/readme-smoke@main/assets/hero-light.svg)
