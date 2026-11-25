@@ -18,4 +18,12 @@ image proxy (camo), and does `<picture>` switch variants with the viewer's theme
    markdown sanitiser with absolute `srcset` URLs.
 4. The 1200×400 sheet scales to the README column and to mobile without cropping.
 
-Replace `whoissanity/readme-smoke` before pushing.
+Pushed to `whoissanity/readme-smoke` on 2026-11-25.
+
+## Markdown-syntax control
+
+Same asset referenced with Markdown image syntax instead of `<picture>`, to see
+whether GitHub proxies repository assets through camo or serves them from
+`raw.githubusercontent.com` directly:
+
+![Drafting Table hero, markdown syntax](https://raw.githubusercontent.com/whoissanity/readme-smoke/main/assets/hero-light.svg?v=1)
